@@ -50,7 +50,6 @@ h3 {
   animation-fill-mode: forwards;
   display: flex;
   flex-direction: column;
-  color:#212121;
 }
 
 @keyframes slidedown {
@@ -60,7 +59,7 @@ h3 {
 }
 @keyframes slideup {
   0% {
-    transform: translateY(+50vh);
+    transform: translateY(+25vh);
   }
 }
 @keyframes fadeintro {
@@ -75,9 +74,8 @@ h3 {
   }
 }
 @keyframes fadeabout {
-  10% {
+  30% {
     color: rgba(0, 0, 0, 0);
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
   }
   100% {
     color:#212121;
