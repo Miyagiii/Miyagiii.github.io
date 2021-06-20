@@ -278,6 +278,16 @@ img{
     margin-top: 5vh;
     margin-left: 0px;
   }
+  .card.alt.up.reveal.active{
+
+    height: 10vh;
+
+  }
+  .image.star.reveal.active{
+    width: 7vw;
+    margin-left: 3vw;
+    
+  }
   .button{
     font-size: 3vw;
   }
