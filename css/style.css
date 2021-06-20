@@ -155,7 +155,9 @@ h3 {
   }
 
 }
-@media (orientation: portrait) { 
+@media   (max-device-width: 800px) 
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2){ 
   .card{
     height: 20vw;
   }
