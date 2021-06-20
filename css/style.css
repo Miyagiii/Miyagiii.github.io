@@ -155,7 +155,7 @@ h3 {
 }
 @media screen and (max-height: 1000px) {
 
-  .card{
+  .card.right.reveal.active{
     height: 15vh;
   }
 
