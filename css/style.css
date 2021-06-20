@@ -12,8 +12,8 @@ h3 {
 }
 
 #main {
-  min-height: 100vh;
-  width: 100vw;
+  min-height: 99.9vh;
+  width: 99.1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ h3 {
 }
 
 #about {
-  min-height: 100vh;
+  min-height: 99.9vh;
   margin-top: 3vh;
   display: flex;
   justify-content: flex-start;
@@ -167,7 +167,7 @@ h3 {
 @media screen and (max-width: 576px) {
   #container {
     flex-direction: column;
-    height: 100vh;
+    height: 99.9vh;
     overflow: visible;
  }
   .card{
