@@ -37,7 +37,7 @@ h3 {
   color: rgba(255, 255, 255, 0);
   font-family: Poppins;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #intro {
@@ -52,9 +52,9 @@ h3 {
   outline: auto;
   margin-top: 13vh;
   outline-style: solid;
-  outline-color: pink;
   padding: 0px;
   height: 40vh;
+  
   }
   
 .card{
@@ -63,6 +63,7 @@ h3 {
   width: 20vw;
   color:rgba(0, 0, 0, 0);
   outline-style: none;
+  border: none;
   margin: 0px;
   margin-left: 5vw;
 
