@@ -50,7 +50,9 @@ h3 {
   display: inline-flex;
   outline: auto;
   margin-top: 13vh;
-  outline-style: none;
+  outline-style: solid;
+  outline-color: red;
+  
   }
   
 .card{
@@ -147,16 +149,15 @@ h3 {
 @media screen and (max-width: 576px) {
   #container {
     flex-direction: column;
-]  }
+ }
   .card{
     width: 55vw;
   }
 
 }
-@media screen and (max-height: 1000px) {
-
-  .card.right.reveal.active{
-    height: 15vh;
+@media (max-device-width: 1280px) and (orientation: landscape) { 
+  .card{
+    width: 20vw;
   }
 
 }
