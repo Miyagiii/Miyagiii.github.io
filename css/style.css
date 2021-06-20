@@ -51,7 +51,7 @@ h3 {
   outline: auto;
   margin-top: 13vh;
   outline-style: solid;
-  outline-color: red;
+  outline-color: green;
   
   }
   
@@ -159,7 +159,7 @@ h3 {
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2){ 
   .card{
-    height: 20vw;
+    height: 10vw;
   }
 
 }
