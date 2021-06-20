@@ -11,6 +11,9 @@ h3 {
   font-size: 3vw;
 }
 
+img{
+  width: 99%;
+}
 #main {
   min-height: 99.9vh;
   width: 99.1vw;
@@ -68,7 +71,6 @@ h3 {
   padding: 0px;
   align-items: center;
 }
-
 .button {
   margin: 3vw;
   margin-top: 1vw;
@@ -79,6 +81,15 @@ h3 {
   color: red;
 }
 
+
+.image.reveal.active{
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 10vw;
+  height: 10vw;
+  animation: csharpfade 5s, rotate 3s;
+}
 .card {
   background-color: rgba(0, 0, 0, 0);
   height: 40vh;
@@ -91,24 +102,37 @@ h3 {
   align-items: center;
 }
 
+.card.alt.up.reveal.active{
+  margin-top: 9vh;
+  width: 75vw;
+  height: 20vh;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0);
+  animation:  altfade 3s,slideup 2s;
+}
+.csharp.reveal.active{
+  animation: csharpfade 15, rotate 1s;
+  animation-fill-mode: forwards;
+
+}
 .card.right.reveal.active {
   color: white;
   animation: fadecard 3s, slideright 2s;
-  ;
+  
   animation-fill-mode: forwards;
 }
 
 .card.left.reveal.active {
   color: white;
   animation: fadecard 3s, slideleft 2s;
-  ;
+  
   animation-fill-mode: forwards;
 }
 
 .card.up.reveal.active {
   color: white;
   animation: fadecard 3s, slideup 2s;
-  ;
+  
   animation-fill-mode: forwards;
 }
 
@@ -166,6 +190,17 @@ h3 {
   }
 }
 
+@keyframes csharpfade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes rotate {
+  
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+
+}
+
 @keyframes fadeintro {
   10% {
     color: rgba(0, 0, 0, 0);
@@ -174,7 +209,6 @@ h3 {
   100% {
     color: rgba(255, 255, 255, 255);
     text-shadow: 2px 10px 15px #000000;
-    filter: blur(0px);
   }
 }
 

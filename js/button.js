@@ -47,7 +47,7 @@ function clear3()
         button.innerHTML = "";
     }
     button.classList.add("clicked");
-    txt = "My goals are to take my first into the programming industry and gain experience. My long term goals are to progress with a company and become a senior developer leading my own interesting projects with the creative freedom to make a real difference. ";
+    txt = "My goals are to take my first steps into the programming industry and gain experience. My long term goals are to progress with a company and become a senior developer leading my own interesting projects with the creative freedom to make a real difference. ";
     typeWriter();
   }
 }
