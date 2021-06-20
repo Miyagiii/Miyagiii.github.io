@@ -51,7 +51,7 @@ h3 {
   outline: auto;
   margin-top: 13vh;
   outline-style: solid;
-  outline-color: green;
+  outline-color: yellow;
   
   }
   
@@ -158,7 +158,7 @@ h3 {
 @media   (max-device-width: 800px) 
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2){ 
-  .card{
+  .card.right.reveal.active{
     height: 10vw;
   }
 
