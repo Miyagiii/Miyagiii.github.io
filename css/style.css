@@ -53,14 +53,14 @@ h3 {
   margin-top: 13vh;
   outline-style: solid;
   padding: 0px;
-  height: 40vh;
-  
+  align-items: center;
   }
   
 .card{
   background-color: rgba(0, 0, 0, 0);
-  height: 90%;
-  width: 20vw;
+
+  height: 40vh;
+  width: 25vw;
   color:rgba(0, 0, 0, 0);
   outline-style: none;
   border: none;
@@ -157,10 +157,13 @@ h3 {
     overflow: visible;
  }
   .card{
-    width: 55vw;
-    height: 60%;
+    width: 80vw;
+    height: 60vh;
     margin-top: 5vh;
     margin-left: 0px;
+  }
+  #container{
+    width: 100%;
   }
   @keyframes slideright {
     0% {
