@@ -25,6 +25,9 @@ h3 {
   box-shadow: 0 15px 20px -2px gray;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
   background-size: cover;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+
 }
 
 #about {
@@ -38,6 +41,7 @@ h3 {
   font-family: Poppins;
   flex-direction: column;
   overflow: visible;
+  
 }
 
 #intro {
@@ -55,7 +59,15 @@ h3 {
   padding: 0px;
   align-items: center;
   }
-  
+
+.button{
+  margin: 3vw;
+  margin-top: 1vw;
+}
+.button:hover{
+  color: red;
+}
+
 .card{
   background-color: rgba(0, 0, 0, 0);
 
@@ -91,10 +103,6 @@ h3 {
   animation: fadecard 3s, slidedown 2s; 
   animation-fill-mode: forwards;
 }
-.reveal.active{
-  flex-direction: column;
-}
-
 .about_text{
   margin-top: 10vh;
 }
@@ -102,6 +110,9 @@ h3 {
   animation: fadeabout 3s, slideup 2s; ;
   animation-fill-mode: forwards;
 
+}
+.button.clicked:hover{
+  color: white;
 }
 @keyframes slidedown {
   0% {
@@ -153,6 +164,7 @@ h3 {
     border-radius: 20px;
   }
 }
+
 @media screen and (max-width: 576px) {
   #container {
     flex-direction: column;
