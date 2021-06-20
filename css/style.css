@@ -37,6 +37,7 @@ h3 {
   color: rgba(255, 255, 255, 0);
   font-family: Poppins;
   flex-direction: column;
+  overflow: hidden;
 }
 
 #intro {
@@ -52,16 +53,18 @@ h3 {
   margin-top: 13vh;
   outline-style: solid;
   outline-color: yellow;
-  
+  padding: 0px;
+  height: 40vh;
   }
   
 .card{
   background-color: rgba(0, 0, 0, 0);
-  height: 40vh;
+  height: 90%;
   width: 20vw;
   color:rgba(0, 0, 0, 0);
   outline-style: none;
-  margin: 3vw;
+  margin: 0px;
+  margin-left: 5vw;
 
 }
 .card.right.reveal.active{
@@ -149,20 +152,16 @@ h3 {
 @media screen and (max-width: 576px) {
   #container {
     flex-direction: column;
+    height: 100vh;
  }
   .card{
     width: 55vw;
+    margin-top: 5vh;
+    margin-left: 0px;
   }
 
 }
-@media   (max-device-width: 800px) 
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2){ 
-  .card.right.reveal.active{
-    height: 10vw;
-  }
 
-}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
