@@ -161,7 +161,16 @@ h3 {
     margin-top: 5vh;
     margin-left: 0px;
   }
-
+  @keyframes slideright {
+    0% {
+      transform: translateX(-10vh);
+    }
+  }
+  @keyframes slideleft {
+    0% {
+      transform: translateX(+10vh);
+    }
+  }
 }
 
 /*
