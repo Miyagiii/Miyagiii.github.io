@@ -163,12 +163,12 @@ h3 {
   }
   @keyframes slideright {
     0% {
-      transform: translateX(-10vh);
+      transform: translateX(-15vh);
     }
   }
   @keyframes slideleft {
     0% {
-      transform: translateX(+10vh);
+      transform: translateX(+15vh);
     }
   }
 }
