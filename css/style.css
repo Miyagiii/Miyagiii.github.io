@@ -25,8 +25,6 @@ h3 {
   box-shadow: 0 15px 20px -2px gray;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
   background-size: cover;
-
-
 }
 
 #about {
@@ -40,99 +38,134 @@ h3 {
   font-family: Poppins;
   flex-direction: column;
   overflow: visible;
-  
+}
+
+#skills {
+  min-height: 99.9vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #212121;
+  color: rgba(255, 255, 255, 0);
+  font-family: Poppins;
+  flex-direction: column;
+  overflow: visible;
 }
 
 #intro {
-  animation: slidedown  2s, fadeintro 3s;
+  animation: slidedown 2s, fadeintro 3s;
   animation-fill-mode: forwards;
   display: flex;
   flex-direction: column;
 }
 
-#container{
+#container {
   display: inline-flex;
   outline: auto;
   margin-top: 13vh;
   outline-style: solid;
   padding: 0px;
   align-items: center;
-  }
+}
 
-.button{
+.button {
   margin: 3vw;
   margin-top: 1vw;
+  font-size: 0.9vw;
 }
-.button:hover{
+
+.button:hover {
   color: red;
 }
 
-.card{
+.card {
   background-color: rgba(0, 0, 0, 0);
-
   height: 40vh;
   width: 25vw;
-  color:rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
   outline-style: none;
   border: none;
   margin: 0px;
   margin-left: 5vw;
   align-items: center;
-  
+}
 
-}
-.card.right.reveal.active{
-  color:white;
-  animation: fadecard 3s,slideright 2s; ;
+.card.right.reveal.active {
+  color: white;
+  animation: fadecard 3s, slideright 2s;
+  ;
   animation-fill-mode: forwards;
 }
-.card.left.reveal.active{
-  color:white;
 
-  animation: fadecard 3s, slideleft 2s; ;
+.card.left.reveal.active {
+  color: white;
+  animation: fadecard 3s, slideleft 2s;
+  ;
   animation-fill-mode: forwards;
 }
-.card.up.reveal.active{
-  color:white;
-  animation: fadecard 3s,slideup 2s; ;
+
+.card.up.reveal.active {
+  color: white;
+  animation: fadecard 3s, slideup 2s;
+  ;
   animation-fill-mode: forwards;
 }
-.card.down.reveal.active{
-  color:white;
-  animation: fadecard 3s, slidedown 2s; 
+
+.card.down.reveal.active {
+  color: white;
+  animation: fadecard 3s, slidedown 2s;
   animation-fill-mode: forwards;
 }
-.about_text{
+
+.about_text {
   margin-top: 10vh;
 }
-.about_text.reveal.active{
-  animation: fadeabout 3s, slideup 2s; ;
-  animation-fill-mode: forwards;
 
+.about_text.reveal.active {
+  animation: fadeabout 3s, slideup 2s;
+  ;
+  animation-fill-mode: forwards;
 }
-.button.clicked:hover{
+
+.skills_text {
+  margin-top: 10vh;
+}
+
+.skills_text.reveal.active {
+  animation: fadeskills 3s, slideup 2s;
+  ;
+  animation-fill-mode: forwards;
+}
+
+.button.clicked:hover {
   color: white;
 }
+
 @keyframes slidedown {
   0% {
     transform: translateY(-50vh);
   }
 }
+
 @keyframes slideup {
   0% {
     transform: translateY(+25vh);
   }
 }
+
 @keyframes slideright {
   0% {
     transform: translateX(-50vh);
   }
 }
+
 @keyframes slideleft {
   0% {
     transform: translateX(+50vh);
   }
 }
+
 @keyframes fadeintro {
   10% {
     color: rgba(0, 0, 0, 0);
@@ -144,21 +177,33 @@ h3 {
     filter: blur(0px);
   }
 }
+
 @keyframes fadeabout {
   30% {
     color: rgba(0, 0, 0, 0);
   }
   100% {
-    color:#212121;
+    color: #212121;
     text-shadow: 2px 10px 15px #000000;
   }
 }
+
+@keyframes fadeskills {
+  30% {
+    color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    color: white;
+    text-shadow: 2px 10px 15px #000000;
+  }
+}
+
 @keyframes fadecard {
   30% {
     background-color: rgba(0, 0, 0, 0);
   }
   100% {
-    background-color:#212121;
+    background-color: #212121;
     box-shadow: 0 20px 40px 10px gray;
     border-radius: 20px;
   }
@@ -169,14 +214,14 @@ h3 {
     flex-direction: column;
     height: 99.9vh;
     overflow: visible;
- }
-  .card{
+  }
+  .card {
     width: 80vw;
     height: 60vh;
     margin-top: 5vh;
     margin-left: 0px;
   }
-  #container{
+  #container {
     width: 100%;
   }
   @keyframes slideright {
