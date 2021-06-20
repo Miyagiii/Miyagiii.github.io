@@ -221,6 +221,9 @@ h3 {
     margin-top: 5vh;
     margin-left: 0px;
   }
+  .button{
+    font-size: 3vw;
+  }
   #container {
     width: 100%;
   }
