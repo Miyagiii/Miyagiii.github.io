@@ -153,10 +153,10 @@ h3 {
   }
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-height: 1000px) {
 
   .card{
-    height: 25vh;
+    height: 15vh;
   }
 
 }
