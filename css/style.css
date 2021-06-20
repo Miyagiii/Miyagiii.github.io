@@ -52,7 +52,7 @@ h3 {
   outline: auto;
   margin-top: 13vh;
   outline-style: solid;
-  outline-color: yellow;
+  outline-color: pink;
   padding: 0px;
   height: 40vh;
   }
@@ -153,6 +153,7 @@ h3 {
   #container {
     flex-direction: column;
     height: 100vh;
+    overflow: visible;
  }
   .card{
     width: 55vw;
