@@ -43,7 +43,7 @@ img{
 }
 
 #skills {
-  min-height: 200vh;
+  height: 190vh;
   margin-top: 5vh;
   display: flex;
   justify-content: flex-start;
@@ -55,6 +55,18 @@ img{
   overflow: visible;
 }
 
+#projects{
+  min-height: 99.9vh;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  color: rgba(255, 255, 255, 0);
+  font-family: Poppins;
+  flex-direction: column;
+  overflow: visible;
+}
 #intro {
   animation: slidedown 2s, fadeintro 3s;
   animation-fill-mode: forwards;
@@ -270,6 +282,10 @@ img{
     flex-direction: column;
     height: 99.9vh;
     overflow: visible;
+  }
+  #skills{
+    height: 100vh;
+    
   }
   .card {
     width: 80vw;

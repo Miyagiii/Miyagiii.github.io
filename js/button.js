@@ -24,7 +24,7 @@ function clear2()
 {
   if(!running)
   {
-    txt = "⚪ Completed My BTEC Level 3 Exetended Diploma in IT with D*D*D*<br/><br/>⚪ Completed MTA Security Fundementals<br/><br/>⚪ Completed MTA Introduction to Python<br/><br/>⚪ I have completed several Freelance Projects";
+    txt = "⚪ Completed My BTEC Level 3 Exetended Diploma in IT with D*D*D*<br/><br/>⚪ Completed MTA Security Fundementals<br/><br/>⚪ Completed MTA Introduction to Python<br/><br/>⚪ Completed several Freelance Projects";
     running = true;
     button = document.getElementById("button2");
     if(button.innerHTML =="Click to reveal!" ||button.innerHTML.charAt(0) == "⚪")
