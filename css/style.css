@@ -43,7 +43,7 @@ img{
 }
 
 #skills {
-  min-height: 99.9vh;
+  min-height: 200vh;
   margin-top: 5vh;
   display: flex;
   justify-content: flex-start;
@@ -88,15 +88,15 @@ img{
   background-size:contain;
   background-repeat: no-repeat;
   width: 15vw;
-  animation: csharpfade 5s, rotate 3s;
+  animation: csharpfade 3s, rotate 3s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 .image.star.reveal.active{
   width: 5vw;
-  margin-left: 5vw;
+  margin-left: 3vw;
   animation: csharpfade 5s, rotate 3s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   
 }
