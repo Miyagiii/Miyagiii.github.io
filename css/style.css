@@ -10,7 +10,9 @@ h2 {
 h3 {
   font-size: 3vw;
 }
-
+h4 {
+  font-size: 1.5vw;
+}
 img{
   width: 99%;
 }
@@ -122,10 +124,12 @@ img{
   margin: 0px;
   margin-left: 5vw;
   align-items: center;
+  padding-top: 3vh;
 }
 .card.alt.up.reveal{
   background-color: rgba(255, 255, 255, 0);
 }
+
 .card.alt.up.reveal.active{
   margin-top: 9vh;
   width: 75vw;
@@ -137,7 +141,11 @@ img{
   animation-fill-mode: forwards;
   align-items: center;
 }
-
+.card.rotate.reveal.active{
+  color: white;
+  animation:  rotate 3s, fadecard 2s;
+  animation-fill-mode: forwards;
+}
 .card.right.reveal.active {
   color: white;
   animation: fadecard 3s, slideright 2s;
@@ -296,6 +304,7 @@ img{
   .card.alt.up.reveal.active{
 
     height: 10vh;
+    width: 85vw;
 
   }
   .image.star.reveal.active{
