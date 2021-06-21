@@ -294,6 +294,9 @@ img{
     height: 100vh;
     
   }
+  #main{
+    width: 99.9vw;
+  }
   .card {
     width: 80vw;
     height: 60vh;
@@ -304,7 +307,7 @@ img{
   .card.alt.up.reveal.active{
     height: 10vh;
     width: 85vw;
-    padding-bottom: 2.5vh;
+    padding-bottom: 2.8vh;
   }
   .image.star.reveal.active{
     width: 7vw;
