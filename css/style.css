@@ -16,6 +16,13 @@ h4 {
 img{
   width: 99%;
 }
+p{
+ 
+  margin: 3vh;
+  margin-bottom: 0;
+  font-size: 0.9vw;
+
+}
 #main {
   min-height: 99.9vh;
   width: 99.1vw;
@@ -46,7 +53,7 @@ img{
 
 #skills {
   height: 190vh;
-  margin-top: 5vh;
+  margin-top: 15vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -88,6 +95,7 @@ img{
   margin: 3vw;
   margin-top: 1vw;
   font-size: 0.9vw;
+
 }
 
 .button:hover {
