@@ -135,7 +135,6 @@ img{
   width: 75vw;
   height: 30vh;
   flex-direction: row;
-  align-items: flex-start;
   background-color: rgba(255, 255, 255, 0);
   animation:  altfade 3s,slideup 2s;
   animation-fill-mode: forwards;
@@ -300,12 +299,12 @@ img{
     height: 60vh;
     margin-top: 5vh;
     margin-left: 0px;
+    
   }
   .card.alt.up.reveal.active{
-
     height: 10vh;
     width: 85vw;
-
+    padding-bottom: 2.5vh;
   }
   .image.star.reveal.active{
     width: 7vw;
