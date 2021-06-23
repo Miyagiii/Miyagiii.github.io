@@ -312,13 +312,13 @@ p{
   }
   .card {
     width: 80vw;
-    min-height: 60vh;
+    min-height: 30vh;
     margin-top: 5vh;
     margin-left: 0px;
     
   }
   .card.alt.up.reveal.active{
-    height: 10vh;
+    min-height: 10vh;
     width: 85vw;
     padding-bottom: 2.8vh;
   }
