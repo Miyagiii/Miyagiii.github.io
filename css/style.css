@@ -124,8 +124,8 @@ p{
 }
 .card {
   background-color: rgba(0, 0, 0, 0);
-  height: 40vh;
-  width: 25vw;
+  min-height: 30vh;
+  min-width: 25vw;
   color: rgba(0, 0, 0, 0);
   outline-style: none;
   border: none;
@@ -140,8 +140,8 @@ p{
 
 .card.alt.up.reveal.active{
   margin-top: 9vh;
-  width: 75vw;
-  height: 30vh;
+  min-width: 75vw;
+  min-height: 20vh;
   flex-direction: row;
   background-color: rgba(255, 255, 255, 0);
   animation:  altfade 3s,slideup 2s;
@@ -186,7 +186,7 @@ p{
 
 .about_text.reveal.active {
   animation: fadeabout 3s, slideup 2s;
-  ;
+  
   animation-fill-mode: forwards;
 }
 
@@ -196,7 +196,7 @@ p{
 
 .skills_text.reveal.active {
   animation: fadeskills 3s, slideup 2s;
-  ;
+  
   animation-fill-mode: forwards;
 }
 
@@ -293,32 +293,36 @@ p{
 
 
 @media screen and (max-width: 1000px) {
+
+  p{
+    font-size: 2vw;
+  }
   #container {
     flex-direction: column;
-    height: 99.9vh;
+    min-height: 99.9vh;
     overflow: visible;
   }
   #skills{
-    height: 100vh;
-    
+    min-height: 100vh;
+    padding-bottom: 5vh ;
   }
   #main{
-    width: 99.9vw;
+    min-width: 99.9vw;
   }
   .card {
-    width: 80vw;
-    height: 60vh;
+    min-width: 80vw;
+    min-height: 60vh;
     margin-top: 5vh;
     margin-left: 0px;
     
   }
   .card.alt.up.reveal.active{
-    height: 10vh;
-    width: 85vw;
+    min-height: 8vh;
+    min-width: 85vw;
     padding-bottom: 2.8vh;
   }
   .image.star.reveal.active{
-    width: 7vw;
+    min-width: 7vw;
     margin-left: 3vw;
     
   }
@@ -326,7 +330,7 @@ p{
     font-size: 3vw;
   }
   #container {
-    width: 100%;
+    min-width: 100%;
   }
   @keyframes slideright {
     0% {
