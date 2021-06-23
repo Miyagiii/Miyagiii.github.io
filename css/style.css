@@ -8,7 +8,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 h4 {
   font-size: 1.5vw;
@@ -125,7 +125,7 @@ p{
 }
 .card {
   background-color: rgba(0, 0, 0, 0);
-  min-height: 40vh;
+  min-height: 45vh;
   width: 25vw;
   color: rgba(0, 0, 0, 0);
   outline-style: none;
